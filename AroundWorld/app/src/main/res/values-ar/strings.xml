@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حول العالم</string>
+    <string name="aroundWorld">حول العالم</string>
+    <string name="email_address">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="phone_number">رقم الموبايل</string>
+    <string name="login">دخول</string>
+    <string name="or">أو</string>
+    <string name="don_t_you_have_an_account">هل لا تملك حساب؟</string>
+    <string name="sign_up">تسجيل</string>
+</resources>
