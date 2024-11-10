@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.amrhishammahmoud.uncleJacksOwner.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_ownerFragmentChanges"
+            app:destination="@id/ownerFragmentChanges" />
+        <action
+            android:id="@+id/action_mainFragment_to_detailsFragmentFromUsers"
+            app:destination="@id/detailsFragmentFromUsers" />
+    </fragment>
+    <fragment
+        android:id="@+id/ownerFragmentChanges"
+        android:name="com.amrhishammahmoud.uncleJacksOwner.fragments.OwnerFragmentChanges"
+        android:label="fragment_owner_changes"
+        tools:layout="@layout/fragment_owner_changes" >
+        <action
+            android:id="@+id/action_ownerFragmentChanges_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_ownerFragmentChanges_to_detailsFragmentFromUsers"
+            app:destination="@id/detailsFragmentFromUsers" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragmentFromUsers"
+        android:name="com.amrhishammahmoud.uncleJacksOwner.fragments.DetailsFragmentFromUsers"
+        android:label="fragment_details_from_users"
+        tools:layout="@layout/fragment_details_from_users" >
+        <action
+            android:id="@+id/action_detailsFragmentFromUsers_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_detailsFragmentFromUsers_to_ownerFragmentChanges"
+            app:destination="@id/ownerFragmentChanges" />
+    </fragment>
+</navigation>

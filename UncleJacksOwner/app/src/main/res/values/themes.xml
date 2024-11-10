@@ -1,0 +1,23 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="Theme.UncleJacksOwner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">#FB6E3B</item>
+    <item name="colorPrimaryVariant">#FB6E3B</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">#FB6E3B</item>
+    <item name="colorSecondaryVariant">#FB6E3B</item>
+    <item name="colorOnSecondary">@color/white</item>
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    <!-- Customize your theme here. -->
+
+    <!-- android:textColorSecondary is the color of the menu overflow icon (three vertical dots) -->
+    <item name="android:textColorSecondary">@color/white</item>
+
+    <item name="android:actionMenuTextColor">@color/white</item>
+
+</style>
+</resources>

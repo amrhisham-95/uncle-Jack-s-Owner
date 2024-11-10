@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cartCustomLayout"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/cart_name_background"
+            android:fontFamily="@font/cairo_semibold"
+            android:gravity="center"
+            android:text="01090108249"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline67"
+            app:layout_constraintStart_toStartOf="@+id/guideline22"
+            app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/cairo_semibold"
+            android:gravity="center"
+            android:text="8-7-2024 (12:00)"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19"
+            app:layout_constraintEnd_toStartOf="@+id/guideline67"
+            app:layout_constraintStart_toStartOf="@+id/guideline22"
+            app:layout_constraintTop_toTopOf="@+id/guideline18" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/cairo_semibold"
+            android:gravity="center"
+            android:text="Amr Hisham"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19"
+            app:layout_constraintEnd_toStartOf="@+id/guideline22"
+            app:layout_constraintStart_toStartOf="@+id/guideline68"
+            app:layout_constraintTop_toTopOf="@+id/guideline18" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/cairo_semibold"
+            android:gravity="center"
+            android:text="amrHisham9524@gmail.com"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline22"
+            app:layout_constraintStart_toStartOf="@+id/guideline68"
+            app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.42" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center|center_vertical"
+            android:paddingTop="2dp"
+            android:text="جنيه"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/quantityText"
+            app:layout_constraintStart_toStartOf="@+id/guideline70"
+            app:layout_constraintTop_toTopOf="@+id/guideline63"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.3" />
+
+        <TextView
+            android:id="@+id/quantityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical"
+            android:text="25  كيلو جرام"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/priceItem"
+            app:layout_constraintHorizontal_bias="0.631"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toTopOf="@+id/guideline63"
+            app:layout_constraintVertical_bias="0.252" />
+
+        <TextView
+            android:id="@+id/titleName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/cart_name_background"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center|center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="    زبادي فراولة-توت بنفسجي-حليب فواكه-زبادي توت-ليمون نعناع-حليب زبيب-شانكي مانكي-آيس كيك ف "
+            android:textColor="#353535"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline63"
+            app:layout_constraintEnd_toStartOf="@+id/guideline67"
+            app:layout_constraintStart_toStartOf="@+id/guideline68"
+            app:layout_constraintTop_toTopOf="@+id/guideline62" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.06" />
+
+        <TextView
+            android:id="@+id/priceItem"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="100"
+            android:textColor="#353535"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline67"
+            app:layout_constraintHorizontal_bias="0.156"
+            app:layout_constraintStart_toEndOf="@+id/textView15"
+            app:layout_constraintTop_toTopOf="@+id/guideline63" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.95" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cartImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:cardCornerRadius="250dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline18"
+            app:layout_constraintEnd_toStartOf="@+id/guideline69"
+            app:layout_constraintStart_toStartOf="@+id/guideline134"
+            app:layout_constraintTop_toTopOf="@+id/guideline133">
+
+            <ImageView
+                android:id="@+id/itemPicCardViewCart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/googleg_standard_color_18" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline133"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.3" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline134"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.08" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.6" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.72" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.55" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
